@@ -13,6 +13,7 @@ Scene *SceneNewGame::createScene()
     auto pScene= Scene::create();
     auto pLayer=SceneNewGame::create();
     pScene->addChild(pLayer);
+	cout<<"aaaaaaaaaaaaaa"<<endl;
     return pScene;
 }
 
